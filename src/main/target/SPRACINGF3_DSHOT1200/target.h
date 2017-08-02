@@ -25,7 +25,7 @@
 #define CONFIG_FASTLOOP_PREFERRED_ACC ACC_NONE
 
 #define BEEPER                  PC15
-//#define BEEPER_INVERTED
+#define BEEPER_INVERTED
 
 #define USE_EXTI
 #define MPU_INT_EXTI            PC13
