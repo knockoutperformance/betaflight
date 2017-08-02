@@ -1,0 +1,20 @@
+after remapping i lost softserial 2, i dont need it, so didnt try to get it working.. prolly could get it to work if someone tried.
+
+led strip is working on original pin
+ppm should work on original pin
+
+new pin order
+
+        // Motors 1-4
+ dshot1200 mtr1  = sprf3 m1 pin                       DMA(1,6)
+ dshot1200 mtr2  = sprf3 m2 pin                       DMA(2,3)
+ dshot1200 mtr3  = sprf3 m5 pin                       DMA(2,5)
+ dshot1200 mtr4  = sprf3 m6 pin                       DMA(1,7)
+    // Motors 5-6 or SoftSerial
+ dshot1200 mtr5  = sprf3 SONAR_TRIGGER_PIN   PB0      DMA(1,2)
+ dshot1200 mtr6  = sprf3 SONAR_ECHO_PIN      PB1      DMA(1,3)
+    // Motors 7-8 or UART2
+ dshot1200 mtr7  = sprf3 m7 pin                       UART2_RX
+ dshot1200 mtr8  = sprf3 m8 pin                       UART2_TX
+
+make TARGET=SPRACING_DSHOT1200 OPTIONS=LIGHTEN_ME      =   takes off sonar,softserial1,mag,baro,adc voltage, adc amperage, rssi
