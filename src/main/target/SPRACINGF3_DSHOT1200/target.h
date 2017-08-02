@@ -20,7 +20,7 @@
 
 #define TARGET_BOARD_IDENTIFIER "SRF3"
 
-#define LIGHTEN_ME // make OPTIONS=LIGHTEN_ME, takes off sonar,softserial1,mag,baro,adc voltage, adc amperage, rssi
+//#define LIGHTEN_ME // make OPTIONS=LIGHTEN_ME, takes off sonar,softserial1,mag,baro,adc voltage, adc amperage, rssi
 
 #define CONFIG_FASTLOOP_PREFERRED_ACC ACC_NONE
 
