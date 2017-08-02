@@ -17,4 +17,4 @@ new pin order
  dshot1200 mtr7  = sprf3 m7 pin                       UART2_RX
  dshot1200 mtr8  = sprf3 m8 pin                       UART2_TX
 
-make TARGET=SPRACING_DSHOT1200 OPTIONS=LIGHTEN_ME      =   takes off sonar,softserial1,mag,baro,adc voltage, adc amperage, rssi
+make OPTIONS=LIGHTEN_ME      =   takes off sonar,softserial1,mag,baro,adc voltage, adc amperage, rssi
