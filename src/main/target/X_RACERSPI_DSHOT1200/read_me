@@ -1,0 +1,1 @@
+if using dshot1200, motors 3 and 4 are moved to pins 5 and 6 due to timer conflicts. motors 5 and 6 may work on 3 & 4 pins.
