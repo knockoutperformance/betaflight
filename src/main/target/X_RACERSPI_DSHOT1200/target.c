@@ -21,8 +21,8 @@ const timerHardware_t timerHardware[USABLE_TIMER_CHANNEL_COUNT] = {
     DEF_TIM(TIM17, CH1, PB9,  TIM_USE_MOTOR,               TIMER_OUTPUT_ENABLED),  //mtr4  - m6 pin			    DMA(1,7)
 	
 //may need to disable thes two
-    DEF_TIM(TIM4,  CH1, PA11, TIM_USE_MOTOR,               1), // PWM3 - PA11 //mtr5 - m3 pin
-    DEF_TIM(TIM4,  CH2, PA12, TIM_USE_MOTOR,               1), // PWM4 - PA12 //mtr6 - m4 pin
+   // DEF_TIM(TIM4,  CH1, PA11, TIM_USE_MOTOR,               1), // PWM3 - PA11 //mtr5 - m3 pin
+   // DEF_TIM(TIM4,  CH2, PA12, TIM_USE_MOTOR,               1), // PWM4 - PA12 //mtr6 - m4 pin
 	
     DEF_TIM(TIM15, CH1, PA2,  TIM_USE_MOTOR,               1), // PWM7 - PA2  //mtr7 - m7 pin
     DEF_TIM(TIM15, CH2, PA3,  TIM_USE_MOTOR,               1), // PWM8 - PA3  //mtr8 - m8 pin
